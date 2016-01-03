@@ -1,0 +1,13 @@
+apply from: '_buildScripts/libraries.gradle'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.9'
+}
+
+subprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+
+    apply from: "${project.rootDir}/_buildScripts/libraries.gradle"
+}

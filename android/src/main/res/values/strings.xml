@@ -1,0 +1,5 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Chatter</string>
+    <string name="error_general">Something went wrong</string>
+</resources>

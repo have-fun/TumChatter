@@ -1,0 +1,22 @@
+<config>
+    <executableName>${app.executable}</executableName>
+    <mainClass>${app.mainclass}</mainClass>
+    <os>ios</os>    
+    <target>ios</target>
+    <iosInfoPList>Info.plist.xml</iosInfoPList>
+    <resources>
+        <resource>
+            <directory>resources</directory>
+        </resource>
+    </resources>
+    <forceLinkClasses>
+        <pattern>java.util.logging.ConsoleHandler</pattern>
+        <pattern>java.util.logging.SimpleFormatter</pattern>
+
+        <pattern>com.android.okhttp.HttpHandler</pattern>
+        <pattern>com.android.okhttp.HttpsHandler</pattern>
+        <pattern>com.android.org.conscrypt.**</pattern>
+        <pattern>com.android.org.bouncycastle.**</pattern>
+        <pattern>org.apache.harmony.security.provider.**</pattern>
+    </forceLinkClasses>
+</config>

@@ -1,0 +1,54 @@
+ext.libs = [
+
+    app_compat : 'com.android.support:appcompat-v7:23.1.1',
+
+
+    // Plugins
+    kotlin_plugin : 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.0-beta-4584',
+    kotlin_android_plugin : 'org.jetbrains.kotlin:kotlin-android-extensions:1.0.0-beta-4584',
+    android_plugin : 'com.android.tools.build:gradle:1.5.0',
+    robovm_plugin : 'org.robovm:robovm-gradle-plugin:1.12.0',
+    retrolamda : 'me.tatarka:gradle-retrolambda:3.2.4',
+
+    // Kotlin
+    kotlin_stdlib : 'org.jetbrains.kotlin:kotlin-stdlib:1.0.0-beta-4584',
+    kotlin_reflect : 'org.jetbrains.kotlin:kotlin-reflect:1.0.0-beta-4584',
+
+    // Dependency Injection
+    butterknife : 'com.jakewharton:butterknife:7.0.1',
+    kotterknife : 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT',
+    javax_annotation : 'javax.annotation:jsr250-api:1.0',
+    dagger : 'com.google.dagger:dagger:2.0.2',
+    dagger_compiler : 'com.google.dagger:dagger-compiler:2.0.2',
+
+    // Json
+    gson : 'com.google.code.gson:gson:2.5',
+
+    // REST
+    retrofit : 'com.squareup.retrofit:retrofit:1.9.0',
+    okhttp : 'com.squareup.okhttp:okhttp:2.7.1',
+
+    // RoboVM
+    robovm_rt : 'org.robovm:robovm-rt:1.12.0',
+    robovm_cocoatouch : 'org.robovm:robovm-cocoatouch:1.12.0',
+
+    // Rx
+    rxandroid : 'io.reactivex:rxandroid:1.1.0',
+    rxjava : 'io.reactivex:rxjava:1.1.0',
+    rxkotlin : 'io.reactivex:rxkotlin:0.30.1',
+    rxbinding : 'com.jakewharton.rxbinding:rxbinding:0.2.0',
+    rxlifecycle : 'com.trello:rxlifecycle:0.4.0',
+    rxlifecycle_components : 'com.trello:rxlifecycle-components:0.4.0',
+
+    // Unit Testing
+    junit : 'junit:junit:4.12',
+    spek : 'org.jetbrains.spek:spek:0.1.188',
+    //spek : 'com.github.tomtanti:spek:v0.1-experiment.1',
+    assertj : 'org.assertj:assertj-core:1.7.1',
+    mockito : 'org.mockito:mockito-core:2.0.35-beta',
+
+    // Web Server
+    //havefun_tumweb : 'com.github.have-fun:tumweb:v0.0-alpha.1',
+    havefun_tumweb : 'com.tompium:tumweb:v0.0-alpha.1',
+    nanohttpd : 'org.nanohttpd:nanohttpd:2.2.0'
+]
