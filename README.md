@@ -1,6 +1,6 @@
 # TumChatter
 
-Sample cross platform (Android, iOS and Web) apps.
+Sample cross platform apps (Android and iOS) with embedded web server.
 
 #### Language
 - Kotlin
